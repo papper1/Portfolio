@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import editor from "../../Assets/Projects/codeEditor.png";
 import capitify from "../../Assets/Projects/capitify.jpg";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import ozonbridge from "../../Assets/Projects/ozonbridge.jpg";
