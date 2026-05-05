@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -10,46 +10,50 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              ABOUT <span className="purple">ME </span>
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I am Thang Nguyen, a final-year Information Technology
+              student at Hanoi University of Civil Engineering.
               <br />
               <br />
-              I’m proficient in
+              I focus on
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  Flutter mobile development, Firebase integration, and REST API
+                  based applications
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              with an emphasis on maintainable code structure.
               <br />
               <br />
-              My key areas of interest include developing
+              I have built practical projects such as a music streaming app and
+              a desktop product processing tool, and I am comfortable with
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  feature-based architecture, Clean Architecture, and Git-based
+                  workflows
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              across frontend and backend collaboration.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              My current goal is to grow as a
+              <b className="purple"> Flutter developer </b>
+              by contributing to real products and learning from production
+              engineering practices.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="Nguyen Quang Thang"
+                style={{ borderRadius: "20px" }}
+              />
             </Tilt>
           </Col>
         </Row>
@@ -57,4 +61,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

@@ -471,6 +471,8 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
@@ -513,6 +515,23 @@ button:focus {
   padding: 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;
+}
+
+.project-card-image {
+  width: 100% !important;
+  height: 320px !important;
+  object-fit: cover !important;
+  object-position: center top !important;
+}
+
+.project-card-body {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 auto !important;
+}
+
+.project-card-actions {
+  margin-top: auto !important;
 }
 
 .blog-img {
